@@ -1,6 +1,7 @@
 body {
   font-family: "HK Grotesk";
   font-size: 1.6rem;
+   background-image: url("../images/grid.png");
 }
 
 li {
@@ -76,6 +77,23 @@ table th {
   text-align: center;
 }
 
+.main-price-header {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  text-align: left;
+  color: #7f828c;
+}
+
+.main-price-package {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 .docs-header {
   text-transform: uppercase;
   font-size: 1.8rem;
@@ -107,6 +125,14 @@ table th {
 .mt-4 { margin-top: -4rem; }
 .mt-4 { margin-top: -3rem; }
 
+.vt-img {
+  height: 26rem;
+}
+
+.vt-img-creator {
+  height: 32rem;
+}
+
 .flip {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -121,3 +147,18 @@ table th {
 .footer-img {
   height: 2rem;
 }
+
+.formula-1 {
+  height: 8rem;
+}
+.formula-2 {
+  height: 7rem;
+}
+.formula-3 {
+  height: 9rem;
+}
+
+table td:first-child {
+  font-size: 1.5rem;
+}
+
