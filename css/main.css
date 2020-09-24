@@ -1,7 +1,12 @@
 body {
   font-family: "HK Grotesk";
   font-size: 1.6rem;
-   background-image: url("../images/grid.png");
+
+  background-image: url("../images/back.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+
 }
 
 li {
@@ -50,7 +55,8 @@ a:hover {
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   color: #FFF;
   background-color: #5DA576;
-  border-color: #5DA576; 
+  border-color: #5DA576;
+  font-size: 1.3rem;
 }
 
 table tr td:second {
@@ -114,6 +120,7 @@ table th {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  display: none;
   margin-top: -2rem;
   left: 0;
   right: 0;
@@ -162,3 +169,36 @@ table td:first-child {
   font-size: 1.5rem;
 }
 
+.text-right { text-align: right; }
+
+
+.footer-header { 
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: none;
+}
+
+@media (min-width: 550px) {
+  .footer-header { 
+    display: block;
+  }
+}
+
+.footer-link-header {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+
+.footer-link {
+  display: block;
+  width: fit-content;
+  margin-left: auto;s
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.block { display: block; }
