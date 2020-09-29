@@ -1,15 +1,15 @@
 body {
   font-family: "HK Grotesk";
   font-size: 1.6rem;
-
+/* 
   background-image: url("../images/back.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: top;
+  background-position-y: top; */
 
 }
 
-li {
+li:not(.navbar-item, .navbar-item-logo) {
   font-size: 1.5rem;
   list-style: inside;
 }
@@ -41,7 +41,6 @@ a {
 a:hover {
   /* text-decoration: underline; */
 }
-
 
 .r-tabs-state-default a {
     color: #ccc;
@@ -132,10 +131,6 @@ table th {
 .mt-4 { margin-top: -4rem; }
 .mt-4 { margin-top: -3rem; }
 
-.vt-img {
-  height: 26rem;
-}
-
 .vt-img-creator {
   height: 32rem;
 }
@@ -190,7 +185,6 @@ table td:first-child {
   margin-bottom: 2rem;
 }
 
-
 .footer-link {
   display: block;
   width: fit-content;
@@ -202,3 +196,17 @@ table td:first-child {
 }
 
 .block { display: block; }
+
+.navbar-logo {
+  position: absolute;
+  top: 2.5rem;
+  left: 4rem;
+}
+
+.navbar-logo img {
+  height: 1em;
+}
+
+.hide-navbar {
+  display: none;
+}
