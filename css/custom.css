@@ -1,5 +1,4 @@
-.container {
-  max-width: 800px; }
+
 .header {
   margin-top: 6rem;
   text-align: center; }
@@ -12,10 +11,16 @@
 .docs-section {
   padding: 4rem 0;
   margin-bottom: 0;}
+.logo-img {
+  display: block;
+  text-align: center;
+  margin: 4rem auto 0; }
+}
 .value-img {
   display: block;
   text-align: center;
-  margin: 2.5rem auto 0; }
+  width: 90%;
+  margin: 1.5rem auto 0; }
 .example-grid .column,
 .example-grid .columns {
   background: #EEE;
@@ -82,7 +87,7 @@
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
-    margin-top: 18rem; }
+    margin-top: 16rem; }
   .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem; }
@@ -217,4 +222,24 @@
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
+}
+
+
+blockquote {
+  position: relative;
+  margin: 80px auto;
+  width: 80%;
+  font-size: 5rem;
+  line-height: 56px;
+  padding-left: 40px;
+  border-left: 2px solid #fff;
+}
+
+blockquote span {
+  display: block;
+  text-align: right;
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
 }

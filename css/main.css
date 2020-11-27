@@ -1,8 +1,8 @@
 body {
   font-family: "HK Grotesk";
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 
-  background-image: url("../images/back.svg");
+  background-image: url("../images/back_simple.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: top;
@@ -80,7 +80,16 @@ table th {
   font-size: 1.8rem;
   letter-spacing: .2rem;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
+}
+
+.docs-header-gray {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  text-align: left;
+  color: #747b8e;
 }
 
 .main-price-header {
@@ -105,8 +114,8 @@ table th {
   font-size: 1.8rem;
   letter-spacing: .2rem;
   font-weight: 600;
-  text-align: center;
-  margin-bottom: 4em;
+  text-align: left;
+  margin-bottom: 3em;
 }
 
 .docs-header-tab {
