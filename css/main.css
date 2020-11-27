@@ -1,5 +1,14 @@
+@font-face{ 
+	font-family: "HK Grotesk2";
+	src: url('../fonts/hkgrotesk-regular.eot');
+	src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/hkgrotesk-regular.woff') format('woff'),
+	     url('../fonts/hkgrotesk-regular.ttf') format('truetype'),
+	     url('../fonts/hkgrotesk-regular.svg#webfont') format('svg');
+}
+
 body {
-  font-family: "HK Grotesk";
+  font-family: "HK Grotesk2";
   font-size: 1.7rem;
 
   background-image: url("../images/back_simple.svg");
