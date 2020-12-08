@@ -29,7 +29,7 @@ body {
   font-family: "HK Grotesk Regular","Helvetica Neue","Arial",sans-serif;
   font-size: 1.7rem;
 
-  background-image: url("../images/back_simple.svg");
+  /* background-image: url("../images/back_simple.svg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: top;
@@ -122,10 +122,7 @@ a:hover {
 }
 
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #5DA576;
-  border-color: #5DA576;
-  font-size: 1.3rem;
+  font-size: 0.8em;
 }
 
 table tr td:second {
@@ -159,7 +156,8 @@ table tr td:third {
 }
 
 .footer {
-  height: 40rem;
+  height: 36rem;
+  margin-top: 8em;
 }
 
 .footer-img {
@@ -180,6 +178,7 @@ table td:first-child {
   font-size: 1.5rem;
 }
 
+.text-left { text-align: left; }
 .text-right { text-align: right; }
 
 
@@ -217,8 +216,46 @@ table td:first-child {
 .docs-seperator {
   text-align: center;
 }
+
 .step-content {
   text-align: left;
+  margin-top: 2em;
+}
+
+.step-gray-title {
+  color: #627D98;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+
+  font-family: "HK Grotesk 600";
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: .3rem;
+}
+
+.step-header-text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.step-columns {
+  text-align: left;
+}
+
+
+.step-columns p {
+  padding-right: 3em;
+}
+
+.step-header-text p:first-child {
+  font-weight: 400;
+  display: inline;
+}
+
+.step-header-text p:last-child {
+  font-weight: 600;
+  display: inline;
 }
 
 .inter-header {
@@ -253,6 +290,10 @@ table td:first-child {
   align-items: center;
 }
 
+.line50 {
+  block-size: 50px !important;
+}
+
 .sep-line {
   align-self: center;
   block-size: 100px;
@@ -263,6 +304,30 @@ table td:first-child {
   font: 16px Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   padding: 0px 1px 0px 0px;
 }/*#SPAN_1*/
+
+.sep-line-solid {
+  align-self: center;
+  block-size: 100px;
+  box-sizing: border-box;
+  display: block;
+  width: 1px;
+  background: rgba(0, 0, 0, 0) linear-gradient(rgb(24, 24, 24), rgb(24, 24, 24)) repeat scroll 0% 0% / auto padding-box border-box;
+  font: 16px Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  padding: 0px 1px 0px 0px;
+}
+
+
+.sep-line-long {
+  align-self: center;
+  block-size: 150px;
+  box-sizing: border-box;
+  display: block;
+  width: 1px;
+  background: rgba(0, 0, 0, 0) linear-gradient(rgb(254, 254, 254), rgb(24, 24, 24)) repeat scroll 0% 0% / auto padding-box border-box;
+  font: 16px Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  padding: 0px 1px 0px 0px;
+
+}
 
 .sep-circle {
   align-items: center;
