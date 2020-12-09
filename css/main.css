@@ -357,4 +357,7 @@ table td:first-child {
   outline: rgb(255, 255, 255) none 0px;
 }
 
+.feature-list li {
+  list-style-type: square;
+}
 
