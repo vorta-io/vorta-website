@@ -4,7 +4,7 @@
 	src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-regular.woff') format('woff'),
 	     url('../fonts/hkgrotesk-regular.ttf') format('truetype'),
-	     url('../fonts/hkgrotesk-regular.svg#webfont') format('svg');
+       url('../fonts/hkgrotesk-regular.svg#webfont') format('svg');
 }
 
 @font-face{ 
@@ -26,23 +26,38 @@
 	     url('../fonts/hkgrotesk-semibold.svg#webfont') format('svg');
 }
 
-body {
-  font-family: "HK Grotesk Regular", "Inter", "Helvetica Neue","Arial",sans-serif;
-  font-size: 1.7rem;
-
-  /* background-image: url("../images/back_simple.svg"); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: top;
+@font-face{ 
+  font-family: "HK Grotesk 500";
+	src: url('../fonts/hkgrotesk-medium.eot');
+	src: url('../fonts/hkgrotesk-medium.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/hkgrotesk-medium.woff') format('woff'),
+	     url('../fonts/hkgrotesk-medium.ttf') format('truetype'),
+	     url('../fonts/hkgrotesk-medium.svg#webfont') format('svg');
 }
 
-p {
-  /* color: rgb(102, 102, 102); */
-
+body {
+  font-family: "HK Grotesk Regular", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 1.7rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "HK Grotesk 300", "Inter", "Helvetica Neue"
+}
+
+.fw400 {
+  font-family: "HK Grotesk Regular" !important;
+}
+
+.fw300 {
+  font-family: "HK Grotesk 300" !important;
+}
+
+form label, form input {
+  font-size: 15px;
+}
+
+form label {
+  font-family: "HK Grotesk 600";
 }
 
 .docs-header-main {
@@ -186,20 +201,6 @@ table tr td:third {
   height: 2rem;
 }
 
-.formula-1 {
-  height: 8rem;
-}
-.formula-2 {
-  height: 7rem;
-}
-.formula-3 {
-  height: 9rem;
-}
-
-table td:first-child {
-  font-size: 1.5rem;
-}
-
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
@@ -217,7 +218,7 @@ table td:first-child {
 
 .footer-link-header {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-family: "HK Grotesk 500";
   margin-bottom: 2rem;
 }
 
@@ -225,7 +226,8 @@ table td:first-child {
 .footer-link {
   display: block;
   width: fit-content;
-  margin-left: auto;s
+  margin-left: auto;
+  font-size: 1.6rem;
 }
 
 .footer-link:hover {
@@ -276,22 +278,21 @@ table td:first-child {
 }
 
 .step-header-text p:first-child {
-  font-weight: 400;
   display: inline;
 }
 
 .step-header-text p:last-child {
-  font-weight: 600;
+  font-family: "HK Grotesk 500";
   display: inline;
 }
 
 .step-header-text-reverse p:first-child {
-  font-weight: 600;
+  font-family: "HK Grotesk 500";
   display: inline;
 }
 
 .step-header-text-reverse p:last-child {
-  font-weight: 400;
+  font-family: "HK Grotesk Regular";
   display: inline;
 }
 
@@ -496,7 +497,6 @@ table td:first-child {
   background: #fff;
   border: 2px solid #D1D1D1;
   border-radius: 50%;
-  transition: background 1s;
 }
 .step.selected {
   border: 2px solid #D1D1D1;   
