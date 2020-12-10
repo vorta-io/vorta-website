@@ -1,6 +1,5 @@
 @font-face{ 
   font-family: "HK Grotesk Regular";
-  font-display: swap
 	src: url('../fonts/hkgrotesk-regular.eot');
 	src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-regular.woff') format('woff'),
@@ -10,7 +9,6 @@
 
 @font-face{ 
   font-family: "HK Grotesk 300";
-  font-display: swap
 	src: url('../fonts/hkgrotesk-light.eot');
 	src: url('../fonts/hkgrotesk-light.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-light.woff') format('woff'),
@@ -21,7 +19,6 @@
 
 @font-face{ 
   font-family: "HK Grotesk 600";
-  font-display: swap
 	src: url('../fonts/hkgrotesk-semibold.eot');
 	src: url('../fonts/hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-semibold.woff') format('woff'),
