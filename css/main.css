@@ -1,5 +1,6 @@
 @font-face{ 
   font-family: "HK Grotesk Regular";
+  font-display: swap
 	src: url('../fonts/hkgrotesk-regular.eot');
 	src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-regular.woff') format('woff'),
@@ -9,15 +10,18 @@
 
 @font-face{ 
   font-family: "HK Grotesk 300";
+  font-display: swap
 	src: url('../fonts/hkgrotesk-light.eot');
 	src: url('../fonts/hkgrotesk-light.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-light.woff') format('woff'),
 	     url('../fonts/hkgrotesk-light.ttf') format('truetype'),
-	     url('../fonts/hkgrotesk-light.svg#webfont') format('svg');
+       url('../fonts/hkgrotesk-light.svg#webfont') format('svg');
+       
 }
 
 @font-face{ 
   font-family: "HK Grotesk 600";
+  font-display: swap
 	src: url('../fonts/hkgrotesk-semibold.eot');
 	src: url('../fonts/hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-semibold.woff') format('woff'),
@@ -26,7 +30,7 @@
 }
 
 body {
-  font-family: "HK Grotesk Regular","Helvetica Neue","Arial",sans-serif;
+  font-family: "HK Grotesk Regular", "Inter", "Helvetica Neue","Arial",sans-serif;
   font-size: 1.7rem;
 
   /* background-image: url("../images/back_simple.svg"); */
@@ -41,11 +45,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "HK Grotesk 300";
+  font-family: "HK Grotesk 300", "Inter", "Helvetica Neue"
 }
 
 .docs-header-main {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: .2rem;
@@ -53,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .docs-header-gray {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: .2rem;
@@ -62,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .docs-header {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: .2rem;
@@ -71,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .docs-header-tab {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -249,7 +253,7 @@ table td:first-child {
   margin-top: 0.5em;
   margin-bottom: 2em;
 
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: .3rem;
@@ -309,7 +313,7 @@ table td:first-child {
 }
 
 .sept-title {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: .3rem;
@@ -419,7 +423,7 @@ table td:first-child {
 }
 
 .features-menu li {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .3rem;
@@ -437,7 +441,7 @@ table td:first-child {
 }
 
 .feature-title {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   letter-spacing: .3rem;
 
@@ -447,7 +451,7 @@ table td:first-child {
 }
 
 .feature-bullet {
-  font-family: "HK Grotesk 600";
+  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
   text-transform: uppercase;
   letter-spacing: .3rem;
   
