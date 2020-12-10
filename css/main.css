@@ -84,6 +84,7 @@ li {
 }
 
 .vt-gray { color: rgb(121, 121, 121); }
+.vt-green { color: #63AA98 }
 .vt-black { color: #222 }
 
 
@@ -111,6 +112,20 @@ a {
 
 a:hover {
   /* text-decoration: underline; */
+}
+
+
+a.text-link {
+  color: #5386E4;
+  text-decoration: underline;
+}
+
+a.text-link:hover {
+  text-decoration: underline;
+}
+
+a.text-link:visited {
+  color: #5386E4;
 }
 
 
@@ -391,7 +406,7 @@ table td:first-child {
 
 .feature-row {
   text-align: left;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .feature-row-center {
@@ -461,7 +476,7 @@ table td:first-child {
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -470,7 +485,7 @@ table td:first-child {
   position: absolute;
   width: 95%;
   height: 50%;
-  border-bottom: 2px solid rgb(121, 121, 121);
+  border-bottom: 2px solid #D1D1D1;
   z-index: -1;
 }
 
@@ -478,14 +493,28 @@ table td:first-child {
   width: 20px;
   height: 20px;
   background: #fff;
-  border: 2px solid rgb(121, 121, 121);
+  border: 2px solid #D1D1D1;
   border-radius: 50%;
   transition: background 1s;
 }
 .step.selected {
-  border: 2px solid rgb(121, 121, 121);   
+  border: 2px solid #D1D1D1;   
 }
 .step.completed {
-  border: 2px solid rgb(121, 121, 121);
-  background: rgb(121, 121, 121); 
+  border: 2px solid #D1D1D1;
+  background: #D1D1D1;
+}
+
+.paint-it-black {
+  color: #fff !important;
+  background-color: #222 !important;
+  border-color: #222 !important;
+}
+
+.paint-it-black:hover {
+  color: #63AA98 !important;
+}
+
+.home-link {
+  cursor: pointer;
 }

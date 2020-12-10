@@ -344,9 +344,11 @@ figure,
 table,
 p,
 ul,
-ol,
-form {
+ol {
   margin-bottom: 2.5rem; }
+form {
+  margin-bottom: 0rem;
+}
 
 
 /* Utilities
