@@ -1,26 +1,11 @@
 
-.header {
-  margin-top: 6em;
-  text-align: center; }
+
 .value-prop {
   margin-top: 1rem; }
 .value-props {
   margin-top: 4rem;
   margin-bottom: 4rem; }
 
-.docs-section {
-  padding: 4rem 0;
-  margin-bottom: 0;}
-.logo-img {
-  display: block;
-  text-align: center;
-  margin: 4rem auto 0; }
-}
-.value-img {
-  display: block;
-  text-align: center;
-  width: 90%;
-  margin: 1.5rem auto 0; }
 .example-grid .column,
 .example-grid .columns {
   background: #EEE;
@@ -235,14 +220,4 @@
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
-}
-
-
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
 }

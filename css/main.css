@@ -1,5 +1,6 @@
 @font-face{ 
   font-family: "HK Grotesk Regular";
+  font-display: swap;
 	src: url('../fonts/hkgrotesk-regular.eot');
 	src: url('../fonts/hkgrotesk-regular.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-regular.woff') format('woff'),
@@ -9,6 +10,7 @@
 
 @font-face{ 
   font-family: "HK Grotesk 300";
+  font-display: swap;
 	src: url('../fonts/hkgrotesk-light.eot');
 	src: url('../fonts/hkgrotesk-light.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-light.woff') format('woff'),
@@ -19,6 +21,7 @@
 
 @font-face{ 
   font-family: "HK Grotesk 600";
+  font-display: swap;
 	src: url('../fonts/hkgrotesk-semibold.eot');
 	src: url('../fonts/hkgrotesk-semibold.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-semibold.woff') format('woff'),
@@ -28,6 +31,7 @@
 
 @font-face{ 
   font-family: "HK Grotesk 500";
+  font-display: swap;
 	src: url('../fonts/hkgrotesk-medium.eot');
 	src: url('../fonts/hkgrotesk-medium.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/hkgrotesk-medium.woff') format('woff'),
@@ -42,6 +46,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "HK Grotesk 300", "Inter", "Helvetica Neue"
+}
+
+p > b {
+  font-family: "HK Grotesk 500";
 }
 
 .fw400 {
@@ -99,7 +107,7 @@ li {
   list-style: inside;
 }
 
-.vt-gray { color: rgb(121, 121, 121); }
+.vt-gray { color: rgb(111, 111, 111); }
 .vt-green { color: #63AA98 }
 .vt-black { color: #222 }
 
@@ -132,7 +140,7 @@ a:hover {
 
 
 a.text-link {
-  color: #5386E4;
+  color: #336cd4;
   text-decoration: underline;
 }
 
@@ -141,7 +149,7 @@ a.text-link:hover {
 }
 
 a.text-link:visited {
-  color: #5386E4;
+  color: #336cd4;
 }
 
 
@@ -199,6 +207,7 @@ table tr td:third {
 
 .footer-img {
   height: 2rem;
+  width: auto;
 }
 
 .text-left { text-align: left; }
@@ -247,7 +256,7 @@ table tr td:third {
 }
 
 .step-gray-title {
-  color:  rgb(121, 121, 121);
+  color:  rgb(111, 111, 111);
   display: block;
   margin-top: 0.5em;
   margin-bottom: 2em;
@@ -398,6 +407,7 @@ table tr td:third {
 .navbar-logo {
   float: left;
   width: 80px;
+  height: auto;
   padding-top: 25px;
 }
 
@@ -474,6 +484,38 @@ table tr td:third {
   height: 260px;
 }
 
+.ft-video-container-full {
+  text-align: center;
+}
+
+.ft-video-container-full iframe {
+  height: 580px;
+  width: 100%;
+}
+
+.ft-video-container-full, .ft-video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background-image: url("../images/features/loading.png");
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ft-video-container-full iframe,
+.ft-video-container-full object,
+.ft-video-container-full embed,
+.ft-video-container iframe,
+.ft-video-container object,
+.ft-video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .steps {
   position: relative;
   display: flex;
@@ -518,4 +560,41 @@ table tr td:third {
 
 .home-link {
   cursor: pointer;
+}
+
+.header {
+  margin-top: 6em;
+  text-align: center;
+}
+
+
+.docs-section {
+  padding: 4rem 0;
+  margin-bottom: 0;}
+.logo-img {
+  display: block;
+  text-align: center;
+  margin: 4rem auto 0; }
+}
+.value-img {
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin: 1.5rem auto 0;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* Larger than phone */
+@media (min-width: 550px) {
+  .header {
+    margin-top: 10em;
+  }
 }
