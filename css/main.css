@@ -114,7 +114,7 @@ li {
 
 .mt12 { margin-top: 12px; }
 .mt24 { margin-top: 24px; }
-
+.mt48 { margin-top: 48px; }
 .mt64 { margin-top: 64px; }
 
 .mt2 { margin-top: 2rem; }
@@ -308,7 +308,7 @@ table tr td:third {
 .inter-header {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 1.8em;
 }
 
 .inter-header-small {
@@ -335,6 +335,7 @@ table tr td:third {
   flex: var(--flex);
   justify-content: center;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .line50 {
@@ -379,7 +380,7 @@ table tr td:third {
   align-self: center;
   block-size: 150px;
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
   width: 1px;
   background: rgba(0, 0, 0, 0) linear-gradient(rgb(254, 254, 254), rgb(24, 24, 24)) repeat scroll 0% 0% / auto padding-box border-box;
   font: 16px Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
