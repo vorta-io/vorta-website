@@ -240,8 +240,9 @@ table tr td:third {
 
 .footer-link-header {
   font-size: 1.6rem;
+  line-height: 12px;
   font-family: "HK Grotesk 500";
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 }
 
 
