@@ -651,7 +651,7 @@ input[type="button"] {
   width: 80%;
 }
 
-@media (max-width: 400px) {  
+@media (max-width: 500px) {  
   .step-columns {
     text-align: center;
   }
