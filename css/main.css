@@ -291,15 +291,6 @@ table tr td:third {
   text-align: center;
 }
 
-.step-columns {
-  text-align: left;
-}
-
-
-.step-columns p {
-  padding-right: 3em;
-}
-
 .step-header-text p:first-child {
   display: inline;
 }
@@ -641,4 +632,41 @@ input[type="button"] {
 
 .gdpr-cookie-notice {
   background: #222;
+}
+
+.step-columns {
+  text-align: left;
+}
+
+.step-columns p {
+  padding-right: 3em;
+}
+
+.illustration {
+  width: 80%;
+}
+
+
+@media (max-width: 400px) {  
+  .step-columns {
+    text-align: center;
+  }
+
+  .illustration {
+    width: 80%;
+  }
+
+  .phone-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {  
+  .illustration {
+    width: 90%;
+  }
+
+  .step-columns p {
+    padding-right: 0em;
+  }
 }
