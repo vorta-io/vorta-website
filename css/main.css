@@ -674,6 +674,10 @@ input[type="button"] {
 }
 
 @media (max-width: 500px) {
+  .mobile-mt {
+    margin-top: 3em;
+  }
+
   .vorta-logo {
     width: 140px;
   }
