@@ -45,7 +45,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "HK Grotesk 300", "Inter", "Helvetica Neue"
+  font-family: "HK Grotesk 300", "Inter", "Helvetica Neue";
+  display: inline-block;
 }
 
 p > b {
@@ -653,13 +654,38 @@ input[type="button"] {
   margin-top: 8px;
 }
 
+.vorta-logo {
+  width: 190px;
+}
+
+.title1 {
+  font-size: 28px;
+}
+
+.title2 {
+  font-size: 24px;
+  color: rgb(111, 111, 111);
+}
+
 @media (min-width: 550px) {
   .footer-header { 
     display: block;
   }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
+  .vorta-logo {
+    width: 140px;
+  }
+  
+  .title1 {
+    font-size: 22px;
+  }
+  
+  .title2 {
+    font-size: 20px;
+  }
+
   .step-columns {
     text-align: center;
   }
@@ -702,6 +728,15 @@ input[type="button"] {
 }
 
 @media (max-width: 768px) {
+  .title1 {
+    font-size: 26px;
+  }
+  
+  .title2 {
+    font-size: 22px;
+  }
+
+
   .footer-header {
     font-size: 16px;
   }
