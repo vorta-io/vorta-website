@@ -643,9 +643,13 @@ input[type="button"] {
 }
 
 .illustration {
-  width: 80%;
+  width: 85%;
 }
 
+
+.illustration2 {
+  width: 80%;
+}
 
 @media (max-width: 400px) {  
   .step-columns {
@@ -653,7 +657,11 @@ input[type="button"] {
   }
 
   .illustration {
-    width: 98%;
+    width: 100%;
+  }
+
+  .illustration2 {
+    width: 90%;
   }
 
   .phone-center {
@@ -663,7 +671,7 @@ input[type="button"] {
 
 @media (max-width: 768px) {  
   .illustration {
-    width: 90%;
+    width: 100%;
   }
 
   .step-columns p {
