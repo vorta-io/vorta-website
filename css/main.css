@@ -691,7 +691,7 @@ input[type="button"] {
   }
 
   .footer-text {
-    text-align: left;
+    text-align: justify;
   }
 
   .footer-text p {
