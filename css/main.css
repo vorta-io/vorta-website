@@ -209,14 +209,6 @@ table tr td:third {
   margin-bottom: 2em
 }
 
-.badges {
-  margin-top: 12px;
-}
-
-.badges object {
-  margin-right: 1.5em;
-}
-
 .footer-img {
   height: 2rem;
   width: auto;
@@ -225,18 +217,6 @@ table tr td:third {
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
-
-.footer-header { 
-  font-size: 18px;
-  display: none;
-  margin-top: 8px;
-}
-
-@media (min-width: 550px) {
-  .footer-header { 
-    display: block;
-  }
-}
 
 .footer-link-header {
   font-size: 1.6rem;
@@ -646,12 +626,40 @@ input[type="button"] {
   width: 85%;
 }
 
-
 .illustration2 {
   width: 80%;
 }
 
-@media (max-width: 500px) {  
+.badges {
+  margin-top: 12px;
+}
+
+.badges object {
+  margin-right: 1.5em;
+}
+
+.footer-text {
+  text-align: right;
+}
+
+.footer-text p {
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.footer-header { 
+  font-size: 18px;
+  display: none;
+  margin-top: 8px;
+}
+
+@media (min-width: 550px) {
+  .footer-header { 
+    display: block;
+  }
+}
+
+@media (max-width: 500px) { 
   .step-columns {
     text-align: center;
   }
@@ -667,14 +675,56 @@ input[type="button"] {
   .phone-center {
     text-align: center;
   }
+
+  .footer-img {
+    margin-bottom: -28px;
+  }
+
+  .badges object:first-child {
+    float: left;
+    margin-right: 0px;
+  }
+
+  .badges object:last-child {
+    float: right;
+    margin-right: 0px;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-text p {
+    font-size: 11px;
+    margin-top: 28px;
+  }
+  
 }
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
+  .footer-header {
+    font-size: 16px;
+  }
+
   .illustration {
     width: 100%;
   }
 
+  .badges object:first-child {
+    float: left;
+    margin-right: 0px;
+  }
+
+  .badges object:last-child {
+    float: right;
+    margin-right: 0px;
+  }
+
   .step-columns p {
     padding-right: 0em;
+  }
+
+  .footer-text p {
+    font-size: 9px;
   }
 }
