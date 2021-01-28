@@ -60,6 +60,10 @@ p > b {
   font-family: "HK Grotesk 300" !important;
 }
 
+.fw500 {
+  font-family: "HK Grotesk 500" !important;
+}
+
 form label, form input {
   font-size: 15px;
 }
@@ -201,8 +205,16 @@ table tr td:third {
 }
 
 .footer {
-  height: 36rem;
   margin-top: 8em;
+  margin-bottom: 2em
+}
+
+.badges {
+  margin-top: 12px;
+}
+
+.badges object {
+  margin-right: 1.5em;
 }
 
 .footer-img {
@@ -215,8 +227,9 @@ table tr td:third {
 
 
 .footer-header { 
-  font-size: 1.8rem;
+  font-size: 18px;
   display: none;
+  margin-top: 8px;
 }
 
 @media (min-width: 550px) {
@@ -228,7 +241,7 @@ table tr td:third {
 .footer-link-header {
   font-size: 1.6rem;
   font-family: "HK Grotesk 500";
-  margin-bottom: 2rem;
+  margin-bottom: 8px;
 }
 
 
@@ -291,17 +304,17 @@ table tr td:third {
 }
 
 .step-header-text p:last-child {
-  font-family: "HK Grotesk 500";
+  /* font-family: "HK Grotesk 500"; */
   display: inline;
 }
 
 .step-header-text-reverse p:first-child {
-  font-family: "HK Grotesk 500";
+  /* font-family: "HK Grotesk 500"; */
   display: inline;
 }
 
 .step-header-text-reverse p:last-child {
-  font-family: "HK Grotesk Regular";
+  /* font-family: "HK Grotesk Regular"; */
   display: inline;
 }
 
@@ -337,6 +350,18 @@ table tr td:third {
   align-items: center;
   margin-bottom: 1em;
 }
+
+.sep-cont-margin-free {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 1px;
+  max-width: 100%;
+  flex: var(--flex);
+  justify-content: center;
+  align-items: center;
+}
+
 
 .line50 {
   block-size: 50px !important;
@@ -598,4 +623,21 @@ input[type="button"] {
   .header {
     margin-top: 10em;
   }
+}
+
+.gdpr-cookie-notice-nav-item-btn, .gdpr-cookie-notice-modal-footer-item-btn {
+  background: #589a69;
+}
+
+.gdpr-cookie-notice-modal-cookie-state {
+  color: #589a69;
+}
+
+.gdpr-cookie-notice-modal-cookie-input:checked+.gdpr-cookie-notice-modal-cookie-input-switch {
+  background: #589a69;
+  box-shadow: inset 0px 0px 0px 1px #589a69;
+}
+
+.gdpr-cookie-notice {
+  background: #222;
 }

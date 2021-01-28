@@ -1,30 +1,18 @@
-$(document).ready(function() {
-
-  function init() {
-    $window = $(window);
-    $body = $('body');
-    $nav = $('.navbar');
-    $navOffsetTop = $nav.offset().top;
-
-    $window.on('scroll', onScroll);
-    $window.on('resize', resize);
+document.addEventListener("DOMContentLoaded", function() {
+  function cookie() {
+    gdprCookieNotice({
+      locale: 'en', //This is the default value
+      timeout: 500, //Time until the cookie bar appears
+      expiration: 30, //This is the default value, in days
+      domain: '.yoursite.com', //If you run the same cookie notice on all subdomains, define the main domain starting with a .
+      implicit: true, //Accept cookies on page scroll automatically
+      statement: 'https://google.com', //Link to your cookie statement page
+      performance: ['JSESSIONID'], //Cookies in the performance category.
+      analytics: ['ga'], //Cookies in the analytics category.
+      marketing: ['SSID'] //Cookies in the marketing category.
+    });
   }
 
-  function resize() {
-    $body.removeClass('has-docked-nav')
-    $navOffsetTop = $nav.offset().top
-    onScroll()
-  }
-  
-  function onScroll() {
-    if($navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
-      $body.addClass('has-docked-nav')
-    }
-    if($navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
-      $body.removeClass('has-docked-nav')
-    }
-  }
-
-  // init();
+  cookie();
 });
 

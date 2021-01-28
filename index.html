@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Vorta - Pioneering Supply Chain Software</title>
+  <title>Vorta - Pioneering Supply Chain Service</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -16,13 +16,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <link rel="preload" href="/fonts/hkgrotesk-regular.woff" as="font" crossorigin="anonymous" />
   <link rel="preload" href="/fonts/hkgrotesk-light.woff" as="font" crossorigin="anonymous" />
   <link rel="preload" href="/fonts/hkgrotesk-semibold.woff" as="font" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/cookie.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -31,6 +31,9 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script src="js/cookie.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -54,14 +57,15 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
   <section class="header">
-    <img class="value-img" width="170px;" height="auto" alt="Vorta logo" src="images/vorta_logo.svg">
+    <img class="value-img" width="190px;" height="auto" alt="Vorta logo" src="images/vorta_logo.svg">
 
     <div style="margin-top: 4em;">
-      <h5 class="title fw300">Pioneering Supply Chain Software
+      <div class="title fw300">
+        <span style="font-size: 26px;">Pioneering Supply Chain Service</span>
         <br />
-        <span class="vt-gray fw300">The fastest way to digitize your supply chain
+        <span class="vt-gray fw300" style="font-size: 22px;">the fastest way to digitize your supply chain
         </span>
-      </h5>
+      </div>
     </div>
 
     <div style="margin-top: 5em;">
@@ -74,22 +78,26 @@
   <div class="docs-seperator" style="margin-top: 5em;">
     <div class="sept-title">Enter the Vorta</div>
     <div class="sep-cont mt24">
-      <span class="sep-line-long"></span>
+      <object data="images/arrow_up.svg" type="image/svg+xml"></object>
     </div>
 
     <div class="row mt24">
       <div class="ten columns offset-by-one">
         <div class="text-center step-header-text">
           <p>
-            Vorta is a cloud software service aimed towards small to medium B2B businesses looking to get help with organization, quality of service, and digitization of supply chain processes. We offer a very straightforward and easy to understand solution that will help your organization manage logistical challenges with ease.
+            Vorta is a cloud software service aimed towards small to medium B2B businesses looking to get help with organization, quality of service, and digitization of supply chain processes. We offer a very straightforward and easy to understand solution that will remove mundane tasks from your company and help you manage logistical challenges with ease.
           </p>
+
+          
         </div>
       </div>
     </div>
 
     <div class="row text-center mt24">
-      <object width="610rem;" data="images/vorta_processor_v2.svg" type="image/svg+xml"></object>
+      <div class="ten columns offset-by-one">
+        <object width="80%;" data="images/vorta_processor_v2.svg" type="image/svg+xml"></object>
       <!-- <img width="610rem;" height="auto" src="images/vorta_processor_v2.svg" alt="Vorta seperator" /> -->
+      </div>
     </div>
 
 
@@ -97,17 +105,14 @@
       <div class="ten columns offset-by-one mt24">
         <div class="text-center step-header-text">
           <p>
-            Innovation and simplicity are our main strengths. We assess your organization and provide consultancy to bring you a simple yet powerful solution that can be fully implemented in only a month or two.
+            Innovation and simplicity are our main strengths. We assess your organization and provide consultancy to bring you simple &amp; innovative solution that can be fully implemented in under two months, to learn more check out our <a class="text-link" href="features">case study</a>. 
           </p>
         </div>
       </div>
     </div>
-  </div>
-
-
+  </div>  
   
-  
-  <div class="docs-seperator" style="margin-top: 6em;">
+  <div class="docs-seperator" style="margin-top: 5em;">
     <span class="sept-title">Three steps to Vorta</span>
     <div class="sep-cont mt24">
       <object width="auto;" data="images/vorta_step_1.svg" type="image/svg+xml"></object>
@@ -120,29 +125,15 @@
           Managing expectations is something we take very seriously at Vorta. We work hard to give you a vision of the end goal from the start.
         </p>
         <p>
-          What makes us different is the fact that after our initial meeting we will prepare your solution for our presentation. You will see your products, customers, shipments in action and know exactly what you can expect with our service. All this will be risk-free.
+          Before you make any kind of commitments you will have a chance to try out your solution first! See your products move through the supply chain from the moment of order to the moment of delivery to the customer. We offer all of this risk-free.
         </p>
       </div>
     </div>
+  </div>
+  <div class="row">
 
-    <div class="row step-content">
-      <div class="six columns step-columns">
-        <span class="step-gray-title">We ask for</span>
-        <span class="inter-header-small">Data</span>
-        <p>We need data on your products, product dimensions, spare parts, customers, prices, trucks etc. </p>
-        <span class="inter-header-small">Team commitment</span>
-        <p>We will organize the onboarding process with you. The team's training and onboarding duties are necessary for our success.</p>
-      </div>
-      <div class="six columns step-columns">
-        <span class="step-gray-title">We give back</span>
-
-        <span class="inter-header-small">Consultancy</span>
-        <p>We take a look at your business and evaluate our impact, advising best ways to maximize it.</p>
-        <span class="inter-header-small">A clear set of goals</span>
-        <p>We provide you with the clear set of goals that we will meet in each stage of our collaboration.</p>
-        <span class="inter-header-small">You try the solution!</span>
-        <p>Before you decide to buy you try your customized solution first! What you see is what you get, risk-free.</p>
-      </div>
+    <div class="twelve columns text-center step-content">
+      <object width="100%;" data="images/vorta_slide_1.svg" type="image/svg+xml"></object>
     </div>
   </div>
 
@@ -159,7 +150,7 @@
 
 
 
-  <div class="docs-seperator" style="margin-top: 4em;">
+  <div class="docs-seperator" style="margin-top: 3.5em;">
     <div class="sep-cont">
       <object width="auto;" data="images/vorta_step_2.svg" type="image/svg+xml"></object>
     </div>
@@ -168,7 +159,7 @@
     <div class="row text-left step-content">
       <div class="twelve columns step-header-text">
         <p>
-          We here at Vorta have always made it one of our primary goals to keep things simple. Our software is easy to use and maintain. Because of that onboarding process is simple and straightforward as well.
+          We here at Vorta have always made our primary goal to keep things simple. Our software is easy to use and maintain. Because of that we offer onboarding with maximum duration of two months. 
         </p>
         <p>
           Together with you we onboard your data and provide remote training courses for you and your whole team.
@@ -179,7 +170,7 @@
       <div class="six columns step-columns">
         <span class="step-gray-title">We ask for</span>
         <span class="inter-header-small">Data</span>
-        <p>We need data on your products, product dimensions, spare parts, customers, prices, transports etc. </p>
+        <p>We need data on your products, product dimensions, spare parts, customers, prices, transports, etc. </p>
         <span class="inter-header-small">Team commitment</span>
         <p>We will organize the onboarding process with you. The team's training and onboarding duties are necessary for our success.</p>
       </div>
@@ -187,7 +178,7 @@
         <span class="step-gray-title">We give back</span>
 
         <span class="inter-header-small">Consultancy</span>
-        <p>We take a look at your business and evaluate our impact, advising best ways to maximize it and improve your organization.</p>
+        <p>We take a look at your business and evaluate our impact, advising the best ways to maximize it and improve your organization.</p>
         <span class="inter-header-small">Training</span>
         <p>We provide training and references for your team to get set up quickly. We work hard to share our methodologies with your team.</p>
       </div>
@@ -197,41 +188,40 @@
   <div class="row text-left step-content">
     <div class="twelve columns step-header-text">
       <p>
-        From the start we will provide you with the clear set of goals that we will meet in each stage of our collaboration. Allowing us all to transparently measure our progress towards promised fast implementation.
+        From the start, we will provide you with a clear set of goals that we will meet in each stage of our collaboration. Allowing us all to transparently measure our progress towards promised fast implementation.
       </p>
     </div>
   </div>
 
 
-  <div class="docs-seperator" style="margin-top: 4em;">
+  <div class="docs-seperator" style="margin-top: 3.5em;">
     <div class="sep-cont">
       <object width="auto;" data="images/vorta_step_3.svg" type="image/svg+xml"></object>
     </div>
 
-    <span class="inter-header mb24">So happy together</span>
+    <span class="inter-header mb24">Done! So what now?</span>
     <div class="row step-content">
       <div class="twelve columns step-header-text">
         <p>
-          That's it, we made it! By now you have a completely operational solution saving your organization time and money with much-simplified workflow.
+          By now you have a completely operational solution saving your organization time and money with a much-simplified workflow.
         </p>
         <p>
-          Best of all is that your supply chain smooth operation is our responsibility now, freeing you up to do what you truly love doing.
+          Best of all is that smooth operation of your supply chain is our responsibility now, freeing you up to do what you truly love doing. We will continue to improve our service and provide continuous consultancy in the future. 
         </p>
       </div>
     </div>
 
     <div class="row text-left step-content">
-      <div class="six columns">
-        <span>image goes here</span>
-        <!-- <img class="value-img mt6 ml2" alt='creator' src="images/shipment.svg"> -->
+      <div class="six columns text-center">
+        <object data="images/vorta_slide_3.svg" type="image/svg+xml"></object>
       </div>
       <div class="six columns">
         <span class="inter-header-small">Continuous updates</span>
         <p>We are passionate about our product and we will continue to make it better and better with regular updates and new features.</p>
         <span class="inter-header-small">Support</span>
-        <p>Avoid surprises by having dedicated team on your side. We offer wide range of support options to suit your operational needs.</p>
-        <span class="inter-header-small">Partners</span>
-        <p>We understand that the way we evolve needs to be tied to the way our customers evolve. Your challenges will be our own.</p>
+        <p>Avoid surprises by having a dedicated team on your side. We offer a wide range of support options to suit your operational needs.</p>
+        <span class="inter-header-small">Services</span>
+        <p>We have exciting roadmap ahead of us, we plan to bring new innovations to our product and make your future problems our own.</p>
       </div>
     </div>
   </div>
@@ -245,12 +235,12 @@
     <div class="row step-content">
       <div class="twelve columns step-header-text">
         <p>
-          As a part of our launch, we are onboarding seven customers by the end of July 2021. These customers will have early-bird treatment getting our service at a discounted price. Some of the customers have already started their journey, sign below to meet with us and claim your seat now!
+          As a part of our launch, we are onboarding five customers by the end of July 2021. These customers will have early-bird treatment getting our service at a discounted price. Some of the customers have already started their journey, click below to meet with us and claim your seat now!
         </p>
       </div>
     </div>
-    <div id="contact" class="sep-cont mt48">
-      <span class="sep-line" style="height: 60px;"></span>
+    <div id="contact" class="sep-cont-margin-free mt48">
+      <object data="images/arrow_up_small.svg" type="image/svg+xml"></object>
     </div>
   </div>
 
@@ -258,14 +248,12 @@
     <div class="six columns offset-by-three"  style="border: 1px solid #222; padding: 4rem 4rem 0rem 4rem; border-radius: 10px;">
       <form>
         <div class="row text-center">
-          <span class="sept-title vt-gray" style="margin-bottom: 1.5em; display: block;">There are <span style="font-weight: 500;">four</span> seats left</span>
+          <span class="sept-title vt-gray" style="margin-bottom: 1.5em; display: block;">There are <span style="font-weight: 500;">three</span> seats left</span>
           <div class="steps">
             <div class="line">
             </div>
             <div class="step completed"></div>
             <div class="step completed"></div>
-            <div class="step completed"></div>
-            <div class="step"></div>
             <div class="step"></div>
             <div class="step"></div>
             <div class="step"></div>
@@ -273,19 +261,6 @@
         </div>
 
         <div class="row mt4">
-          <!-- <label for="email">Email</label>
-          <input class="u-full-width" type="email" placeholder="Email" id="email">
-          <label for="full_name">Name</label>
-          <input class="u-full-width" type="text" placeholder="Full name" id="full_name">
-          <label for="company">Company</label>
-          <input class="u-full-width" type="text" placeholder="Company, Website" id="company">
-
-          <div style="margin-top: 2em;">
-            <input class="u-full-width button-primary paint-it-black" type="submit" value="Contact Us">
-          </div>
-          <div class="text-center" style="margin-bottom: 1em; margin-top: 0.5em;">
-            <span class="sept-title vt-gray" style="display: block;">or</span> 
-          </div> -->
           <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vorta/60min'});return false;">
             <input style="margin-bottom: 1.2rem;" class="u-full-width button-primary" type="submit" value="Schedule a Meeting Now"> 
           </a>
@@ -301,25 +276,31 @@
   <footer class="section footer">
     <div class="row text-left">
       <div class="six columns">
-        <a href="/" class="home-link" aria-label="Homepage">
-          <img class="footer-img" height="2rem" width="auto" src="images/vorta_logo.svg" alt="Vorta logo">
-        </a>
+        <div style="display: block;">
+          <a href="/" class="home-link" aria-label="Homepage">
+            <img class="footer-img" height="2rem" width="auto" src="images/vorta_logo.svg" alt="Vorta logo">
+          </a>
+        </div>
+        <span class="footer-header">Pioneering Supply Chain Service</span>
       </div>
       <div class="six columns text-right">
         <span class="block footer-link-header">LEARN MORE</span>
-        <a class="footer-link" href="/features">Our Features</a>
+        <a class="footer-link" href="/features">Case Study</a>
         <a class="footer-link" href="/about">About Us</a>
         <a class="footer-link" href="/#contact">Contact</a>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 10rem;">
+    <div class="row" style="margin-top: 8rem;">
       <div class="six columns text-left">
-        <span class="footer-header">Pioneering Supply Chain Software</span>
+        <div class="badges">
+          <object width="auto;" data="images/gdpr.svg" type="image/svg+xml"></object>
+          <object width="auto;" data="images/germany.svg" type="image/svg+xml"></object>
+        </div>
       </div>
       <div class="six columns text-right">
-        <p class="vt-gray" style="text-align: left; text-align: justify; font-size: 1.3rem;">
-          Vorta is the product name and property of Vorta doo. with Registered Office and Business address at  Envera Sehovica 34, Sarajevo, Bosnia and Herzegovina. 
+        <p style="text-align: right; font-size: 12px; margin-top: 14px;">
+          Vorta is the product name and property of Vorta doo. with Registered Office and Business address at Envera Sehovica 34, Sarajevo, Bosnia and Herzegovina
         </p>
       </div>
     </div>
