@@ -654,10 +654,6 @@ input[type="button"] {
   margin-top: 8px;
 }
 
-.vorta-logo {
-  width: 190px;
-}
-
 .title1 {
   font-size: 28px;
 }
@@ -672,6 +668,11 @@ input[type="button"] {
   float:right;
   margin-right: 3em;
   opacity: 0.8;
+}
+
+.vorta-logo {
+  width: 190px;
+  height: 35px;
 }
 
 @media (min-width: 550px) {
@@ -691,6 +692,7 @@ input[type="button"] {
 
   .vorta-logo {
     width: 140px;
+    height: 25.6px;
   }
   
   .title1 {
