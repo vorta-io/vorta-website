@@ -667,6 +667,13 @@ input[type="button"] {
   color: rgb(111, 111, 111);
 }
 
+.vorta-team {
+  width: 250px;
+  float:right;
+  margin-right: 3em;
+  opacity: 0.8;
+}
+
 @media (min-width: 550px) {
   .footer-header { 
     display: block;
@@ -676,6 +683,10 @@ input[type="button"] {
 @media (max-width: 500px) {
   .mobile-mt {
     margin-top: 3em;
+  }
+
+  .vorta-team {
+    margin-right: 0px;
   }
 
   .vorta-logo {
