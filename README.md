@@ -3,7 +3,7 @@
 Cat all assets
 
 ```
-cat css/normalize.css css/skeleton.css css/cookie.css css/main.css css/custom.css > css/bundle.css
+cat css/normalize.css css/skeleton.css css/cookie.css css/main.css > css/bundle.css
 
 Got to
 

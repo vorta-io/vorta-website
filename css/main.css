@@ -29,16 +29,6 @@
 	     url('../fonts/hkgrotesk-semibold.svg#webfont') format('svg');
 }
 
-@font-face{ 
-  font-family: "HK Grotesk 500";
-  font-display: swap;
-	src: url('../fonts/hkgrotesk-medium.eot');
-	src: url('../fonts/hkgrotesk-medium.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/hkgrotesk-medium.woff') format('woff'),
-	     url('../fonts/hkgrotesk-medium.ttf') format('truetype'),
-	     url('../fonts/hkgrotesk-medium.svg#webfont') format('svg');
-}
-
 body {
   font-family: "HK Grotesk Regular", "Helvetica Neue", "Arial", sans-serif;
   font-size: 18px;
@@ -206,7 +196,6 @@ table tr td:third {
 .footer-link-header {
   font-size: 1.6rem;
   line-height: 12px;
-  font-family: "HK Grotesk 500";
   margin-bottom: 18px;
 }
 
