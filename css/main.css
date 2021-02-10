@@ -43,44 +43,6 @@ form label, form input {
   font-size: 15px;
 }
 
-form label {
-  font-family: "HK Grotesk 600";
-}
-
-.docs-header-main {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  letter-spacing: .2rem;
-  text-align: left;
-}
-
-.docs-header-gray {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  letter-spacing: .2rem;
-  text-align: left;
-  color: #747b8e;
-}
-
-.docs-header {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  letter-spacing: .2rem;
-  text-align: left;
-  margin-bottom: 3em;
-}
-
-.docs-header-tab {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
 li {
   font-size: 1.5rem;
   list-style: inside;
@@ -331,47 +293,6 @@ table tr td:third {
 .feature-row-center {
   text-align: center;
   margin-top: 2em;
-}
-
-.features-menu {
-  list-style-type: none;
-}
-
-.features-menu li {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  letter-spacing: .3rem;
-  color: #747b8e;
-  
-  display: inline;
-  margin-left: 1em;
-}
-
-.features-menu .selected {
-  background-color: #222;
-  color: white;
-  border-radius: 2px;
-  padding: 2px 8px;
-}
-
-.feature-title {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-
-  font-size: 1.7rem;
-  margin-bottom: 1em;
-  display: block;
-}
-
-.feature-bullet {
-  font-family: "HK Grotesk 600", "Inter", "Helvetica Neue";
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  
-  font-size: 1.2rem;
-  margin-bottom: 1em;
 }
 
 .ft-image-container {
