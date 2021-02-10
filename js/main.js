@@ -1,6 +1,17 @@
+function getCookie(name) {
+  var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+  return v ? v[2] : null;
+}
+
+function setCookie(name, value, days) {
+  var d = new Date;
+  d.setTime(d.getTime() + 24*60*60*1000*days);
+  document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+}
+
 document.addEventListener("DOMContentLoaded", function() {
   function cookie() {
-    if (!Cookies.get('vortaGdprAccepted')) {
+    if (!getCookie('vortaGdprAccepted')) {
       gdprCookieNotice({
         locale: 'en', //This is the default value
         timeout: 500, //Time until the cookie bar appears
@@ -21,6 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("click", function(element) {
   if (element.target.classList.contains('js-cookie-accepted')) {
-    Cookies.set('vortaGdprAccepted', true, { expires: 30 })
+    setCookie('vortaGdprAccepted', true, 30)
   }
 });
