@@ -543,6 +543,7 @@ input[type="button"] {
   
   .title2 {
     font-size: 20px;
+    width: 240px;
   }
 
   .step-columns {
