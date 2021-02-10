@@ -606,6 +606,11 @@ input[type="button"] {
   .footer-header { 
     display: block;
   }
+
+  .step-header-text {
+    font-size: 19px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
