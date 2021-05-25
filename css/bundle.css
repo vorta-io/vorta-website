@@ -1200,7 +1200,7 @@ table tr td:third {
 
 .line-completed {
   position: absolute;
-  width: 25%;
+  width: 50%;
   height: 50%;
   border-bottom: 2px solid #8FC295;
   z-index: -1;
