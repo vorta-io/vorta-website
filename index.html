@@ -38,7 +38,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5DL1F5C82"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-W5DL1F5C82');
@@ -60,10 +60,14 @@
       </div>
     </div>
 
-    <div style="margin-top: 5em;">
+    <div style="margin-top: 4em;">
       <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vorta/60min'});return false;">
         <input class="button-primary" type="button" value="Schedule a Meeting" >
       </a>
+      <div class="badges" style="margin-top: 4em;"">
+              <object width=" auto;" data="images/gdpr.svg" type="image/svg+xml">GDPR Compliant</object>
+        <object width="auto;" data="images/germany.svg" type="image/svg+xml">Hosted in EU</object>
+      </div>
     </div>
   </header>
 
@@ -224,7 +228,9 @@
     <div class="row step-content">
       <div class="twelve columns step-header-text">
         <p>
-          As a part of our launch, we will be onboarding first five customers with the early-bird treatment, receiving our service at a promotional price. Some customers have already started their journey, click below to meet with us and claim your seat now!
+          Vorta is offering flexible pricing models, tailored to meet the requirements of each client.
+          Our priority is ensuring our software serves you effectively, and we are committed to customizing our pricing to fit
+          your specific needs.
         </p>
       </div>
     </div>
@@ -236,32 +242,46 @@
   <div class="row text" id="contact">
     <div class="six columns offset-by-three"  style="border: 1px solid #222; padding: 4rem 4rem 0rem 4rem; border-radius: 10px;">
       <form>
-        <div class="row text-center">
-          <span class="sept-title vt-gray" style="margin-bottom: 1.5em; display: block;">There are <span style="font-weight: 500;">two</span> seats left</span>
-          <div class="steps">
-            <div class="line">
-            </div>
-            <div class="line-completed">
-            </div>
-            <div class="step completed"></div>
-            <div class="step completed"></div>
-            <div class="step completed"></div>
-            <div class="step"></div>
-            <div class="step"></div>
-          </div>
-        </div>
-
-        <div class="row mt4">
+        <div class="row">
           <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/vorta/60min'});return false;">
             <input style="margin-bottom: 1.2rem;" class="u-full-width button-primary" type="submit" value="Schedule a Meeting Now">
           </a>
 
-          <div style="margin-top: 0.6rem;">
+          <div>
             <p class="vt-gray" style="font-size: 1.6rem; text-align: center; width: 100%;">or contact us directly at <a style="color: #5386e4;" href="mailto:info@vorta.io">info@vorta.io</a></p>
             <!-- <p class="vt-gray" style="font-size: 1.2rem; text-align: center; width: 100%;">Not sure yet? Check out our , we know that will help.</p> -->
           </div>
         </div>
       </form>
+    </div>
+  </div>
+
+  <div class="docs-seperator">
+    <div style="margin-top: 5em;">
+      <span class="inter-header" style="font-size: 1.8em; ">Our Clients</span>
+      <div class="row step-content">
+        <div class="twelve columns step-header-text">
+          <p>
+            Vorta has played a pivotal role in our clients' growth journeys, with each client having been with us for over two
+            years, showcasing our enduring partnerships and the sustained value we bring.
+          </p>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 20px; padding-top: 3em;">
+        <a href="https://gazzda.com/" target="_blank" rel="noopener noreferrer" title="Gazzda">
+          <div style="width: 150px;"><img src="images/gazzda.png" alt="Gazzda" style="width: 100%; height: auto;">
+          </div>
+        </a>
+        <a href="https://adanaco.ba/" target="_blank" rel="noopener noreferrer" title="Adana">
+          <div style="width: 150px;"><img src="images/adana.png" alt="Adana" style="width: 100%; height: auto;">
+          </div>
+        </a>
+
+        <a href="https://www.bbb.ba/" target="_blank" rel="noopener noreferrer" title="Bosnian Beech Board">
+          <div style="width: 150px;"><img src="images/bbb.png" alt="Bosnian Beech Board" style="width: 100%; height: auto;">
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -297,10 +317,7 @@
     </div>
   </footer>
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <!-- <script src="js/bundle.min.js" type="text/javascript" async></script>
-   -->
-  <!-- <script src="js/cookie.js" type="text/javascript"></script>
-  <script src="js/main.js" type="text/javascript"></script> -->
+
 
   <!-- <link rel="stylesheet preload" href="/fonts/hkgrotesk-regular.woff" as="font" crossorigin="anonymous" />
   <link rel="stylesheet preload" href="/fonts/hkgrotesk-light.woff" as="font" crossorigin="anonymous" />
