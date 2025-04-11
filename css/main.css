@@ -10,14 +10,13 @@
 
 /* Language switcher styles */
 .lang-switcher {
-  position: fixed !important;
-  top: 20px !important;
-  right: 60px !important;
-  left: auto !important;
+  position: static !important;
   display: flex !important;
+  justify-content: flex-end !important;
   gap: 15px !important;
   z-index: 1000 !important;
-  float: right !important;
+  padding: 20px 60px 0 0 !important;
+  background-color: transparent !important;
 }
 
 .lang-switch {
@@ -618,8 +617,7 @@ input[type="button"] {
   }
   
   .lang-switcher {
-    top: 10px;
-    right: 20px;
+    padding: 10px 20px 0 0 !important;
   }
   
   .lang-switch {
