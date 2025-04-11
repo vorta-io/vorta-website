@@ -8,6 +8,38 @@
        url('../fonts/hkgrotesk-regular.svg#webfont') format('svg');
 }
 
+/* Language switcher styles */
+.lang-switcher {
+  position: fixed !important;
+  top: 20px !important;
+  right: 60px !important;
+  left: auto !important;
+  display: flex !important;
+  gap: 15px !important;
+  z-index: 1000 !important;
+  float: right !important;
+}
+
+.lang-switch {
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  background-color: transparent;
+}
+
+.lang-switch:hover {
+  text-decoration: underline;
+}
+
+.lang-switch.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 @font-face{ 
   font-family: "HK Grotesk 300";
   font-display: swap;
@@ -585,6 +617,15 @@ input[type="button"] {
     margin-top: 28px;
   }
   
+  .lang-switcher {
+    top: 10px;
+    right: 20px;
+  }
+  
+  .lang-switch {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 768px) {
