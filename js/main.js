@@ -228,20 +228,20 @@ function applyTranslations(lang) {
       // Enter Vorta section
       'enter_vorta': 'Upoznajte Vortu',
       'vorta_description': 'Vorta je usluga cloud softvera namijenjena malim i srednjim B2B kompanijama, koje traže pomoć s organizacijom, kvalitetom usluge i digitalizacijom procesa lanca snabdijevanja. Pomažemo Vam da upravljate svojim lancem snabdijevanja i povratnom logistikom putem jednostavnog i lako razumljivog rješenja, uklanjajući zamorne zadatke iz Vaše kompanije i tako pomažući Vašoj organizaciji da s lakoćom upravlja logističkim izazovima.',
-      'innovation_simplicity': 'Inovacija i jednostavnost su naše glavne snage. Procjenjujemo vašu organizaciju i pružamo konsultantske usluge kako bismo Vam donijeli jednostavno i inovativno rješenje koje se može u potpunosti implementirati za manje od dva mjeseca. Sve ovo se radi uz potpunu transparentnost i uključivanje klijenta.',
+      'innovation_simplicity': 'Inovacija i jednostavnost su naše glavne snage. Procjenjujemo Vašu organizaciju i pružamo konsultantske usluge kako bismo Vam donijeli jednostavno i inovativno rješenje koje se može u potpunosti implementirati za manje od dva mjeseca. Sve ovo se radi uz potpunu transparentnost i uključivanje klijenta.',
 
       // Three steps section
       'three_steps': 'Tri koraka do Vorte',
       'we_start_vision': 'Počinjemo s vizijom',
       'managing_expectations': 'Upravljanje očekivanjima je nešto što u Vorti shvatamo vrlo ozbiljno. Naporno radimo da Vam od samog početka damo viziju krajnjeg cilja.',
-      'before_commitment': 'Prije nego što se odlučite na bilo kakvu obavezu, bit će Vam pružena prilika da prvo isprobate svoje rješenje! Pogledajte kako se vaši proizvodi kreću kroz lanac snabdijevanja od trenutka narudžbe do trenutka isporuke kupcu. Sve ovo nudimo bez rizika.',
+      'before_commitment': 'Prije nego što se odlučite na bilo kakvu obavezu, bit će Vam pružena prilika da prvo isprobate svoje rješenje! Pogledajte kako se Vaši proizvodi kreću kroz lanac snabdijevanja od trenutka narudžbe do trenutka isporuke kupcu. Sve ovo nudimo bez rizika.',
       'vorta_not_silver': 'Imajte na umu da Vorta nije čarobno rješenje, i iako će odgovarati mnogim poslovnim procesima, možda neće odgovarati Vašoj organizaciji.',
       'upfront_honest': 'Ako je to slučaj, bit ćemo iskreni i otvoreni o tome.',
 
       // Onboarding section
       'onboarding_easy': 'Jednostavno uvođenje',
       'keep_things_simple': 'Mi u Vorti smo uvijek imali glavni cilj održati stvari jednostavnim. Naš softver je lak za korištenje i održavanje, i stoga je dva mjeseca maksimalno trajanje našeg procesa uvođenja za velike kompanije. Implementacija za manje kompanije traje sedmicu do dvije.',
-      'together_onboard': 'Zajedno s Vama unosimo Vaše podatke i pružamo daljinske obuke za vas i cijeli vaš tim.',
+      'together_onboard': 'Zajedno s Vama unosimo Vaše podatke i pružamo daljinske obuke za Vas i cijeli Vaš tim.',
       'we_ask_for': 'Mi tražimo',
       'data': 'Podatke',
       'data_description': 'Trebamo podatke koji opisuju Vaše proizvode, dimenzije proizvoda, rezervne dijelove, kupce, cijene, transport, itd.',
@@ -286,7 +286,7 @@ function applyTranslations(lang) {
       'about_p1': 'Vorta je osnovana 2016. godine. Počeli smo kao mali startup sa četiri osobe, i kontinuirano rastemo kao efikasan tim koji kombinuje stručnost u upravljanju lancem snabdjevanja i izgradnji softvera. Naš cilj je uvesti jednostavnost kroz inovacije u sve što radimo. Osjećamo se privilegiranima što nam je pružena prilika da donesemo nešto novo u ustajali i dosadni svijet poslovnih aplikacija, koje se rijetko fokusiraju na izgradnju sjajnog proizvoda.',
       'about_p2': 'Mi vjerujemo u jednostavnost. Otkrili smo da se svaki potez koji smo napravili prema jednostavnosti uvijek isplatio. Ove prednosti možda nisu odmah bile očigledne, ali s vremenom smo shvatili da jednostavnije stvari smanjuju broj grešaka i guraju inovacije naprijed. Inovacija je prava snaga Vorte, jer nudimo rješenja koja su jedinstvena i štede puno vremena. U godinama koje dolaze, planiramo nastaviti velike uloge na jednostavnost, jasnoću i iskrenost. Ovo vrijedi za naše proizvode i našu kompaniju.',
       'about_p3': 'Pravilno postupanje s ljudima je osnova našeg poslovanja. Tretiramo naše kupce onako kako bismo mi željeli biti tretirani - s iskrenošću i jasnoćom u svim našim interakcijama. Ako ne možemo riješiti Vaše probleme, bit ćemo izravni i iskreni o tome. Nikada nećete sresti samo naš prodajni tim, sresti ćete konsultante i inženjere koji su izgradili Vortu. Analizirat ćemo Vaše poslovanje, pružiti konsultantske usluge i rješenja, samo ako i kada postoji dodatna vrijednost koja se može dodati. Želimo kupce koji su zadovoljni našim proizvodom i bez ikakve sumnje znaju vrijednost koju im Vorta donosi. Znamo da imamo sjajan proizvod i želimo da ima pozitivan uticaj na industriju i svijet oko nas. Zauzvrat, nastavit ćemo ga činiti sve boljim i boljim.',
-      'about_p4': 'Ako samo razgledate, uživajte. Ako želite postati kupac, voljeli bismo vas upoznati. U svakom slučaju, hvala što ste posjetili Vortu i želimo Vam lijep dan!'
+      'about_p4': 'Ako samo razgledate, uživajte. Ako želite postati kupac, voljeli bismo Vas upoznati. U svakom slučaju, hvala što ste posjetili Vortu i želimo Vam lijep dan!'
     }
   };
 
